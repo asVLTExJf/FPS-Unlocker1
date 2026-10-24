@@ -1,0 +1,21 @@
+{
+    "geode": "v5.11.2",
+    "gd": {
+        "android": "*"
+    },
+    "id": "example.fps_unlocker",
+    "name": "FPS Unlocker",
+    "version": "v1.0.0",
+    "developer": "Local Build",
+    "description": "Experimental Android FPS interval test. No FPS counter.",
+    "settings": {
+        "target-fps": {
+            "type": "int",
+            "name": "Requested FPS",
+            "description": "Requested frame rate; Android may ignore or clamp it.",
+            "default": 240,
+            "min": 60,
+            "max": 360
+        }
+    }
+}
